@@ -140,6 +140,27 @@ entries:
     version: 0.1.0
   bitwarden:
   - apiVersion: v2
+    appVersion: 1.35.4
+    created: "2026-04-06T06:41:28.652364473Z"
+    description: A Helm chart to deploy Bitwarden.
+    digest: d67f758fae53219c42cb53ebc2bbe999b0a7b53b100ccd468e35691bd8996a6b
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/bitwarden/brand/master/icons/icon-square.svg
+    keywords:
+    - vaultwarden
+    - bitwarden
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: bitwarden
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/bitwarden
+    - https://github.com/dani-garcia/vaultwarden
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/bitwarden-0.8.5/bitwarden-0.8.5.tgz
+    version: 0.8.5
+  - apiVersion: v2
     appVersion: 1.33.2
     created: "2025-02-10T09:08:28.299396553Z"
     description: A Helm chart to deploy Bitwarden.
@@ -550,6 +571,30 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/bitwarden-0.1.0/bitwarden-0.1.0.tgz
     version: 0.1.0
   clickhouse:
+  - apiVersion: v2
+    appVersion: 25.8.13
+    created: "2026-04-06T06:41:28.782062256Z"
+    description: Clickhouse chart for Kubernetes
+    digest: 4535df3ebce52dd2643a8dd24f21a30ef1b38719f2564128c60ae66fef35d794
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://github.com/ClickHouse/clickhouse-docs/raw/84f38d893eb7e561c7296279d7953b6a508ec413/static/img/clickhouse-logo.svg
+    keywords:
+    - database
+    - clickhouse
+    - clickhouse-backup
+    - altinity
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: clickhouse
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/clickhouse
+    - https://github.com/ClickHouse/ClickHouse
+    - https://hub.docker.com/r/clickhouse/clickhouse-server
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/clickhouse-0.14.2/clickhouse-0.14.2.tgz
+    version: 0.14.2
   - apiVersion: v2
     appVersion: 24.10.4
     created: "2025-05-05T04:31:46.678401687Z"
@@ -1468,6 +1513,27 @@ entries:
     version: 0.1.0
   clickhouse-keeper:
   - apiVersion: v2
+    appVersion: 24.12.6
+    created: "2026-04-06T06:41:28.896776623Z"
+    description: Clickhouse keeper chart for Kubernetes
+    digest: 6faf4cb2a4f774306ffa1b7f432be1dd337da406d638e928d00d6ba953d77da6
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://github.com/ClickHouse/clickhouse-docs/raw/84f38d893eb7e561c7296279d7953b6a508ec413/static/img/clickhouse-logo.svg
+    keywords:
+    - database
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: clickhouse-keeper
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/clickhouse
+    - https://github.com/ClickHouse/ClickHouse
+    - https://hub.docker.com/r/clickhouse/clickhouse-server
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/clickhouse-keeper-0.7.2/clickhouse-keeper-0.7.2.tgz
+    version: 0.7.2
+  - apiVersion: v2
     appVersion: 24.10.2
     created: "2024-11-20T08:27:41.239536749Z"
     description: Clickhouse keeper chart for Kubernetes
@@ -1581,6 +1647,28 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/clickhouse-keeper-0.1.0/clickhouse-keeper-0.1.0.tgz
     version: 0.1.0
   fluentd:
+  - apiVersion: v2
+    appVersion: 1.19.2
+    created: "2026-04-06T06:41:29.040836109Z"
+    description: Deploy fluentd as log router
+    digest: 5196c9f40c98644ed5df8eb2387798bf2242f863d73c17f52f6ff712f9e89d91
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - logging
+    - logs
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: fluentd
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/fluentd
+    - https://www.fluentd.org
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/fluentd-1.4.2/fluentd-1.4.2.tgz
+    version: 1.4.2
   - apiVersion: v2
     appVersion: 1.18.0
     created: "2025-04-01T03:23:56.129667041Z"
@@ -1903,6 +1991,29 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/fluentd-0.0.1/fluentd-0.0.1.tgz
     version: 0.0.1
   github-actions-runner:
+  - apiVersion: v2
+    appVersion: 2.333.1
+    created: "2026-04-06T06:41:29.167122368Z"
+    description: Github Actions with container registry and mirrors
+    digest: 8c13f00045b5809618b3e2b90bf8595b88ff6585c39ab3aee68af47a20b053d4
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://avatars.githubusercontent.com/u/44036562
+    keywords:
+    - github-actions
+    - container
+    - docker-registry
+    - docker-mirror
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: github-actions-runner
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/github-actions-runner
+    - https://github.com/actions/actions-runner-controller.git
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/github-actions-runner-2.18.0/github-actions-runner-2.18.0.tgz
+    version: 2.18.0
   - apiVersion: v2
     appVersion: 2.323.0
     created: "2025-04-14T07:14:02.405365889Z"
@@ -3081,6 +3192,27 @@ entries:
     version: 1.0.0
   ipsec:
   - apiVersion: v2
+    appVersion: "5.2"
+    created: "2026-04-06T06:41:29.297510385Z"
+    description: IPSec link for Kubernetes
+    digest: d88d53082f1452323a126e8bb8fd9f9ef92fd2b624ce5f7307b90b9923ccf37c
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/ipsec/icon.png
+    keywords:
+    - ipsec
+    - vpn
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: ipsec
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/ipsec
+    - https://libreswan.org/
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/ipsec-0.6.4/ipsec-0.6.4.tgz
+    version: 0.6.4
+  - apiVersion: v2
     appVersion: "5.1"
     created: "2024-12-31T11:48:28.634732124Z"
     description: IPSec link for Kubernetes
@@ -3399,6 +3531,29 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/ipsec-0.1.0/ipsec-0.1.0.tgz
     version: 0.1.0
   keydb:
+  - apiVersion: v2
+    appVersion: 6.3.3
+    created: "2026-04-06T06:41:29.431537023Z"
+    description: KeyDB with TLS, backup/restore support
+    digest: 72050e28212ae7d1dfdae9bdb8a29660bab1d1b1e2eefae21844ddaa875073d7
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/keydb/icon.svg
+    keywords:
+    - keydb
+    - redis
+    - wal-g
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: keydb
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/keydb
+    - https://docs.keydb.dev
+    - https://github.com/wal-g/wal-g
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/keydb-0.24.0/keydb-0.24.0.tgz
+    version: 0.24.0
   - apiVersion: v2
     appVersion: 6.3.3
     created: "2025-05-07T04:35:20.690776955Z"
@@ -4149,6 +4304,26 @@ entries:
   link-common:
   - apiVersion: v2
     appVersion: 2.8.6-alpine3.19
+    created: "2026-04-06T06:41:29.555555167Z"
+    description: Simple vpn-p2p-link service
+    digest: a7e2f6035ab02dc7f14e9de98beff1f5715bf5c4443b79c6686a36da14f7b17c
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/link-common/icon.png
+    keywords:
+    - networking
+    - vpn
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: link-common
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/link-common
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/link-common-0.4.3/link-common-0.4.3.tgz
+    version: 0.4.3
+  - apiVersion: v2
+    appVersion: 2.8.6-alpine3.19
     created: "2025-01-04T08:40:14.148440997Z"
     description: Simple vpn-p2p-link service
     digest: 8f0296708f396e03a44e8e1c7d17707f71915c8bc0da0619ab066849a76e1d29
@@ -4288,6 +4463,29 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/link-common-0.2.2/link-common-0.2.2.tgz
     version: 0.2.2
   mongodb-backup:
+  - apiVersion: v2
+    appVersion: 8.0.10
+    created: "2026-04-06T06:41:29.691317111Z"
+    description: Mongo backup with restore checks
+    digest: 0b86868842f30af04b2e513d7deddaca45a86edcea8b4c9b383595105490aaa0
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/mongodb-backup/icon.png
+    keywords:
+    - mongodb
+    - backup
+    - wal-g
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: mongodb-backup
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/mongodb-backup
+    - https://www.mongodb.com
+    - https://github.com/wal-g/wal-g
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/mongodb-backup-1.1.0/mongodb-backup-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v2
     appVersion: 8.0.6
     created: "2025-04-17T01:35:10.173659156Z"
@@ -4582,6 +4780,28 @@ entries:
     version: 0.1.0
   mongosqld:
   - apiVersion: v2
+    appVersion: 2.14.23
+    created: "2026-04-06T06:41:29.807107117Z"
+    description: Mongo to SQL bridge
+    digest: 93336fd56dca952f0fd132f6037128a87a746d3bf5c537976f17086d58e47b5d
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/mongosqld/icon.png
+    keywords:
+    - mongodb
+    - mongosqld
+    - powerbi
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: mongosqld
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/mongosqld
+    - https://www.mongodb.com/docs/bi-connector/current/reference/mongosqld
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/mongosqld-0.3.7/mongosqld-0.3.7.tgz
+    version: 0.3.7
+  - apiVersion: v2
     appVersion: 2.14.22
     created: "2025-04-16T05:06:10.093317998Z"
     description: Mongo to SQL bridge
@@ -4804,6 +5024,27 @@ entries:
     version: 0.1.0
   mongosync:
   - apiVersion: v2
+    appVersion: 1.15.0
+    created: "2026-04-06T06:41:29.919898122Z"
+    description: Mongo Cluster-to-Cluster Sync
+    digest: 90e3b8a1969cb686cfca81d6c30cb568bcba70f89360a4213fb082448f88c21e
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/mongosync/icon.png
+    keywords:
+    - mongodb
+    - mongosync
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: mongosync
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/mongosync
+    - https://www.mongodb.com/docs/cluster-to-cluster-sync
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/mongosync-0.4.0/mongosync-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 1.13.1
     created: "2025-04-16T05:09:52.123115581Z"
     description: Mongo Cluster-to-Cluster Sync
@@ -5007,6 +5248,27 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/mongosync-0.1.0/mongosync-0.1.0.tgz
     version: 0.1.0
   openvpn:
+  - apiVersion: v2
+    appVersion: 2.6.16
+    created: "2026-04-06T06:41:30.058702099Z"
+    description: OpenVPN in kubernetes
+    digest: 238f03731cb8d90411792d881f84c99e9a6bdd309c1e81d4cc3105bbf6b07b69
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/openvpn/icon.png
+    keywords:
+    - openvpn
+    - vpn
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: openvpn
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/openvpn
+    - https://openvpn.net
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/openvpn-0.6.4/openvpn-0.6.4.tgz
+    version: 0.6.4
   - apiVersion: v2
     appVersion: 2.6.14
     created: "2025-05-12T03:30:47.686120243Z"
@@ -5424,6 +5686,26 @@ entries:
     version: 0.1.1
   overprovisioner:
   - apiVersion: v2
+    appVersion: 3.10.2
+    created: "2026-04-06T06:41:30.192209994Z"
+    description: Reserve the resources for the migration
+    digest: 104ba29f842daa64da1444a3be7970b5c47a3912faa657af8beb2fdc8cffbeee
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/overprovisioner/icon.png
+    keywords:
+    - kubernetes
+    - overprovisioner
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: overprovisioner
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/overprovisioner
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/overprovisioner-0.2.2/overprovisioner-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: "3.10"
     created: "2024-11-23T15:16:48.492324555Z"
     description: Reserve the resources for the migration
@@ -5503,6 +5785,26 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/overprovisioner-0.1.0/overprovisioner-0.1.0.tgz
     version: 0.1.0
   pgbouncer:
+  - apiVersion: v2
+    appVersion: "16.13"
+    created: "2026-04-06T06:41:30.352139294Z"
+    description: Postgres connection poller
+    digest: 14a44846769640e5506a6fae1b0992c2635a32debe9790e82b15aa39c0d3e13b
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/pgbouncer/icon.png
+    keywords:
+    - pgbouncer
+    - postgresql
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: pgbouncer
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/pgbouncer
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/pgbouncer-0.14.0/pgbouncer-0.14.0.tgz
+    version: 0.14.0
   - apiVersion: v2
     appVersion: "16.9"
     created: "2025-05-12T03:31:03.160939317Z"
@@ -6001,6 +6303,27 @@ entries:
     version: 0.1.0
   plausible:
   - apiVersion: v2
+    appVersion: v3.2
+    created: "2026-04-06T06:41:30.474195968Z"
+    description: Plausible Analytics
+    digest: 4b279d9a0898c998550d12e882ca47620eec7699949f8d8fe80d2f8f74f1db15
+    home: https://plausible.io/
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/plausible/icon.png
+    keywords:
+    - plausible
+    - analytics
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: plausible
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/plausible
+    - https://github.com/plausible/analytics
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/plausible-1.1.0/plausible-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     appVersion: v2.1.5
     created: "2025-02-08T10:39:43.110549011Z"
     description: Plausible Analytics
@@ -6123,6 +6446,30 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/plausible-0.1.0/plausible-0.1.0.tgz
     version: 0.1.0
   postgresql-single:
+  - apiVersion: v2
+    appVersion: "16.13"
+    created: "2026-04-06T06:41:30.609278266Z"
+    description: Postgres with backup/restore and replication
+    digest: a1b350fec3edd71797465e50771a033ad0fd1c1f9f59785be1d17cddadc6da77
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/postgresql-single/icon.png
+    keywords:
+    - postgresql
+    - postgres
+    - cloudnative-pg
+    - database
+    - sql
+    - replication
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: postgresql-single
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/postgresql-single
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/postgresql-single-1.12.2/postgresql-single-1.12.2.tgz
+    version: 1.12.2
   - apiVersion: v2
     appVersion: "16.9"
     created: "2025-05-12T03:30:38.584958635Z"
@@ -7122,6 +7469,27 @@ entries:
   prometheus-rules:
   - apiVersion: v2
     appVersion: 2.40.0
+    created: "2026-04-06T06:41:30.721305707Z"
+    description: Static prometheus/victoria metrics common rules
+    digest: ca8ebc738545807644e646772a6e6ceaad1e90e33d5176e9cd4da2c4d50da050
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - prometheus
+    - victoria-metrics
+    - metrics
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: prometheus-rules
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/prometheus-rules
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/prometheus-rules-0.2.28/prometheus-rules-0.2.28.tgz
+    version: 0.2.28
+  - apiVersion: v2
+    appVersion: 2.40.0
     created: "2025-01-02T16:18:42.626592616Z"
     description: Static prometheus/victoria metrics common rules
     digest: 44d841cf46e21d818b649067fe7b2781747fa8ff5f753d178e3ff71b64f0400e
@@ -7879,6 +8247,26 @@ entries:
   rbac-common:
   - apiVersion: v2
     appVersion: 0.1.1
+    created: "2026-04-06T06:41:30.871481491Z"
+    description: Kubernetes RBAC
+    digest: 7c9063064da46dfe6d9ade855860cec160c5dfc528ca6e25846e88822a610b6e
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/rbac-common/icon.png
+    keywords:
+    - rbac
+    - security
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: rbac-common
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/rbac-common
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/rbac-common-0.4.5/rbac-common-0.4.5.tgz
+    version: 0.4.5
+  - apiVersion: v2
+    appVersion: 0.1.1
     created: "2024-12-19T10:00:49.040181901Z"
     description: Kubernetes RBAC
     digest: 3fc9f3f37f880733dba7a321228b7f5b9d47e97133dfdf99f7a0670235810c1b
@@ -8054,6 +8442,26 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/rbac-common-0.2.6/rbac-common-0.2.6.tgz
     version: 0.2.6
   registry-mirrors:
+  - apiVersion: v2
+    appVersion: v2.1.15
+    created: "2026-04-06T06:41:30.991076992Z"
+    description: Container registry mirror
+    digest: 414d8774a32293bfb2ba9547ab8559a3aa8034195f0ae7d6b9b86fc7f4960ccd
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/registry-mirrors/icon.png
+    keywords:
+    - containerd
+    - docker mirror
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: registry-mirrors
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/registry-mirrors
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/registry-mirrors-2.0.13/registry-mirrors-2.0.13.tgz
+    version: 2.0.13
   - apiVersion: v2
     appVersion: v2.1.2
     created: "2025-01-20T09:18:59.58619704Z"
@@ -8233,6 +8641,25 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/registry-mirrors-0.1.0/registry-mirrors-0.1.0.tgz
     version: 0.1.0
   service-common:
+  - apiVersion: v2
+    appVersion: 2.8.20
+    created: "2026-04-06T06:41:31.103882725Z"
+    description: Simple gateway with TLS auth
+    digest: bca4db4f484679548b813522e899a3bf02e97302658b56b1c0e8ccef15ed39e7
+    home: https://github.com/sergelogvinov/helm-charts
+    keywords:
+    - haproxy
+    - gateway
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: service-common
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/service-common
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/service-common-0.3.8/service-common-0.3.8.tgz
+    version: 0.3.8
   - apiVersion: v2
     appVersion: 2.8.15
     created: "2025-04-25T03:24:48.428321785Z"
@@ -8457,6 +8884,26 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/service-common-0.1.0/service-common-0.1.0.tgz
     version: 0.1.0
   skipper:
+  - apiVersion: v2
+    appVersion: v0.24.60
+    created: "2026-04-06T06:41:31.25454482Z"
+    description: Ingress controller for Kubernetes
+    digest: 4bcbb6fe95fa3e04cbb4c71d89fc77adb4df628af4fab9dac3a7ae04c8c24b8e
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/skipper/icon.png
+    keywords:
+    - ingress-controller
+    - skipper
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: skipper
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/skipper
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/skipper-0.4.9/skipper-0.4.9.tgz
+    version: 0.4.9
   - apiVersion: v2
     appVersion: v0.22.29
     created: "2025-05-12T03:31:20.531074634Z"
@@ -8691,6 +9138,25 @@ entries:
     version: 0.1.0
   system-upgrade-controller:
   - apiVersion: v2
+    appVersion: v0.19.0
+    created: "2026-04-06T06:41:31.370149858Z"
+    description: System Upgrade Controller for Talos
+    digest: 08f39073a42f18ed81b1a57ebd823353b97a0efbbbf1c8c43f8b33782a00b7f9
+    home: https://github.com/sergelogvinov/helm-charts
+    keywords:
+    - system-upgrade-controller
+    - talos
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: system-upgrade-controller
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/system-upgrade-contoller
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/system-upgrade-controller-0.6.0/system-upgrade-controller-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
     appVersion: v0.15.2
     created: "2025-03-17T13:40:29.326627721Z"
     description: System Upgrade Controller for Talos
@@ -8825,6 +9291,26 @@ entries:
   tabix:
   - apiVersion: v2
     appVersion: 22.05.17
+    created: "2026-04-06T06:41:31.526391475Z"
+    description: Clickhouse WebUI
+    digest: ca1463a29f24f86f56393c0b092b21bdbc5c65061b82122d60be7dfb3acbc3e5
+    home: https://github.com/sergelogvinov/helm-charts
+    keywords:
+    - tabix
+    - clickhouse
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: tabix
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/tabix
+    - https://github.com/tabixio/tabix
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/tabix-0.2.0/tabix-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 22.05.17
     created: "2024-11-20T08:27:44.91918541Z"
     description: Clickhouse WebUI
     digest: 482dee51c55b4bd569d108855599b58b4048f422b324741032c52df6dfdeb7c7
@@ -8904,6 +9390,28 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/tabix-0.1.0/tabix-0.1.0.tgz
     version: 0.1.0
   tailscale:
+  - apiVersion: v2
+    appVersion: v1.94.2
+    created: "2026-04-06T06:41:31.641480415Z"
+    description: Tailscale mesh network.
+    digest: d4f702f03f3678f3a0cc84a9862236e1ac425647d25d54d7915925bf300db1cd
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/tailscale/icon.png
+    keywords:
+    - tailscale
+    - vpn
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: tailscale
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/tailscale
+    - https://github.com/tailscale/tailscale
+    - https://tailscale.com
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/tailscale-0.14.2/tailscale-0.14.2.tgz
+    version: 0.14.2
   - apiVersion: v2
     appVersion: v1.82.5
     created: "2025-05-08T03:59:57.433395671Z"
@@ -9364,6 +9872,26 @@ entries:
   talos-backup:
   - apiVersion: v2
     appVersion: v0.1.0-beta.2
+    created: "2026-04-06T06:41:31.741790967Z"
+    description: Talos etcd backup
+    digest: e22c6888952d7d245802dc349755abcd12a0c6fe09915c9263d2658e10566523
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/talos-backup/icon.png
+    keywords:
+    - talos
+    - etcd
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: talos-backup
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/talos-backup
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/talos-backup-0.1.2/talos-backup-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v0.1.0-beta.2
     created: "2024-12-08T10:30:27.786453867Z"
     description: Talos etcd backup
     digest: 84e88a39477ddf0cf0d59ab5c39adaec16b7fda0a73b4267818a3ac36253b0d0
@@ -9403,6 +9931,31 @@ entries:
     - https://github.com/sergelogvinov/helm-charts/releases/download/talos-backup-0.1.0/talos-backup-0.1.0.tgz
     version: 0.1.0
   teamcity:
+  - apiVersion: v2
+    appVersion: 2025.11.3
+    created: "2026-04-06T06:41:31.893416268Z"
+    description: Teamcity on Kubernetes
+    digest: 67c398b7cce75873af1bad3687f36d3452014e44a5a4b0391bc0e4dd6e9fefe7
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://raw.githubusercontent.com/sergelogvinov/helm-charts/main/charts/teamcity/icon.png
+    keywords:
+    - ci
+    - continuous integration
+    - continuous delivery
+    - continuous deployment
+    - devops
+    - automation
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: teamcity
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/master/charts/teamcity
+    - https://www.jetbrains.com/teamcity
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/teamcity-0.10.6/teamcity-0.10.6.tgz
+    version: 0.10.6
   - apiVersion: v2
     appVersion: 2025.03.1
     created: "2025-05-12T03:36:36.079716444Z"
@@ -10021,6 +10574,31 @@ entries:
   victoria-metrics:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2026-04-06T06:41:31.998924524Z"
+    description: Predefined resources for Victoria Metrics Operator
+    digest: 34469bd8dceb5b79d83548f8c2021abb47c05c7448c22e3883def9fce84f8d68
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - prometheus
+    - victoria-metrics
+    - vmstorage
+    - vmagent
+    - vmalert
+    - metrics
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: victoria-metrics
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/victoria-metrics
+    - https://github.com/VictoriaMetrics
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/victoria-metrics-0.2.2/victoria-metrics-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2025-02-17T12:02:33.958002986Z"
     description: Predefined resources for Victoria Metrics Operator
     digest: f8799adf75ac84fa4db5b7282b5ba888773ac12d219e3daf3a64d66c0db3f370
@@ -10044,4 +10622,29 @@ entries:
     urls:
     - https://github.com/sergelogvinov/helm-charts/releases/download/victoria-metrics-0.1.0/victoria-metrics-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-12T03:36:36.080607013Z"
+  victoria-metrics-storage:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-04-06T06:41:32.114411574Z"
+    description: Predefined resources for Victoria Metrics Operator
+    digest: 11b8247be604d10dbc3fd79397003c304ab28ba5d483239812aa2face1c933f7
+    home: https://github.com/sergelogvinov/helm-charts
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - prometheus
+    - victoria-metrics
+    - vmcluster
+    - vmalert
+    - metrics
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: victoria-metrics-storage
+    sources:
+    - https://github.com/sergelogvinov/helm-charts/tree/main/charts/victoria-metrics-storage
+    - https://github.com/VictoriaMetrics
+    type: application
+    urls:
+    - https://github.com/loki-dv/helm-charts/releases/download/victoria-metrics-storage-0.0.8/victoria-metrics-storage-0.0.8.tgz
+    version: 0.0.8
+generated: "2026-04-06T06:41:32.117708646Z"
